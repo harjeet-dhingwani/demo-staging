@@ -1,4 +1,6 @@
 <?php
+
+//Import DB using custom script
 $conn = mysqli_connect("localhost", "root", "", "lfg");
 
 $filename = "export_games.csv";
